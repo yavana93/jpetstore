@@ -1,4 +1,4 @@
-
+node {
    // Mark the code checkout 'stage'....
    stage 'Checkout'
 
@@ -17,3 +17,4 @@
    // Run the maven build
    sh "${mvnHome}/bin/mvn clean install"
 
+}
