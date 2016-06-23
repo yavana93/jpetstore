@@ -8,8 +8,8 @@ node {
    // Get the maven tool.
    // ** NOTE: This 'M3' maven tool must be configured
    // **       in the global configuration.
-   def mvnHome = tool 'M3'
-   //def mvnHome= "D:\\apache-maven-3.1.1"
+   //def mvnHome = tool 'M3'
+   def mvnHome= "C:\Program Files\Apache\maven"
    env.JAVA_HOME = tool 'Java 1.8.0_73'
 
    // Mark the code build 'stage'....
