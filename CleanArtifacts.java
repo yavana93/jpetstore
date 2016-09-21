@@ -83,7 +83,9 @@ public class CleanArtifacts extends Builder implements SimpleBuildStep {
 		return projectName;
 	}
 
-
+public String getProjectName1() {
+		return projectName;
+	}
 
 	public boolean isKeepSnapshots() {
 		return keepSnapshots;
